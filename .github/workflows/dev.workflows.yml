@@ -44,7 +44,7 @@ jobs:
       # Pin to your actual build folder
       - name: Set deploy dir
         id: dist
-        run: echo "path=dist/soft-eng-web" >> "$GITHUB_OUTPUT"
+        run: echo "path=dist/soft-eng" >> "$GITHUB_OUTPUT"
 
       #- name: SPA extras
         #run: |
